@@ -1,0 +1,19 @@
+LET vColours.Borders.Base=RGB(4,108,193);
+LET vColours.Scroll.Buttons=RGB(192,192,192);
+LET vColours.Scroll.Background=RGB(255,255,255);
+LET vColours.Caption.Inactive.Background.Base=RGB(232,232,232);
+LET vColours.Caption.Inactive.Background.Second=RGB(200,200,200);
+LET vColours.Caption.Inactive.Text=RGB(54,54,54);
+LET vColours.Caption.Active.Background.Base=RGB(210,210,210);
+LET vColours.Caption.Active.Background.Second=RGB(153,153,153);
+LET vColours.Caption.Active.Text=RGB(54,54,54);
+LET vColours.Sheet.Default.Background.Base=RGB(248,248,248);
+LET vColours.Sheet.Default.Background.Second=RGB(0,0,0);
+LET vColours.Tabrow.Background.Base=RGB(223,230,234);
+LET vColours.Popups.Alert.Font=RGB(0,0,0);
+LET vColours.Popups.Alert.Background.Base=RGB(255,255,255);
+LET vColours.Popups.Alert.Background.Second=RGB(255,255,197);
+LET vColours.Popups.Help.Font=RGB(0,0,0);
+LET vColours.Popups.Help.Background.Base=RGB(210,222,254);
+LET vColours.Popups.Help.Background.Second=RGB(162,178,239);
+
