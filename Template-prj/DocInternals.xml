@@ -1,12 +1,106 @@
 ﻿<DocInternals>
-  <AlwaysLoose></AlwaysLoose>
-  <FieldSrcTables></FieldSrcTables>
-  <TableViewData></TableViewData>
+  <AlwaysLoose>
+    <bool>false</bool>
+    <bool>false</bool>
+    <bool>false</bool>
+    <bool>false</bool>
+    <bool>false</bool>
+    <bool>false</bool>
+  </AlwaysLoose>
+  <FieldSrcTables>
+    <String>6</String>
+    <String>1</String>
+    <String>Characters</String>
+    <String>7</String>
+    <String>3</String>
+    <String>Characters</String>
+    <String>ASCII</String>
+    <String>Transactions</String>
+    <String>8</String>
+    <String>1</String>
+    <String>ASCII</String>
+    <String>9</String>
+    <String>1</String>
+    <String>ASCII</String>
+    <String>10</String>
+    <String>1</String>
+    <String>Transactions</String>
+    <String>11</String>
+    <String>1</String>
+    <String>Transactions</String>
+    <String>12</String>
+    <String>1</String>
+    <String>Transactions</String>
+    <String>13</String>
+    <String>1</String>
+    <String>Transactions</String>
+    <String>14</String>
+    <String>1</String>
+    <String>Transactions</String>
+    <String>15</String>
+    <String>1</String>
+    <String>Transactions</String>
+    <String>16</String>
+    <String>1</String>
+    <String>Transactions</String>
+    <String>17</String>
+    <String>1</String>
+    <String>Transactions</String>
+  </FieldSrcTables>
+  <TableViewData>
+    <Pos></Pos>
+    <CtlInfo>
+      <InternalView>
+        <Tables>
+          <TableViewTableWinSaveInfo>
+            <Pos>
+              <Left>537</Left>
+              <Top>150</Top>
+              <Width>100</Width>
+              <Height>64</Height>
+            </Pos>
+            <Caption>Characters</Caption>
+          </TableViewTableWinSaveInfo>
+          <TableViewTableWinSaveInfo>
+            <Pos>
+              <Left>376</Left>
+              <Top>439</Top>
+              <Width>100</Width>
+              <Height>82</Height>
+            </Pos>
+            <Caption>ASCII</Caption>
+          </TableViewTableWinSaveInfo>
+          <TableViewTableWinSaveInfo>
+            <Pos>
+              <Left>204</Left>
+              <Top>28</Top>
+              <Width>100</Width>
+              <Height>190</Height>
+            </Pos>
+            <Caption>Transactions</Caption>
+          </TableViewTableWinSaveInfo>
+        </Tables>
+        <BroomPoints></BroomPoints>
+        <ConnectionPoints></ConnectionPoints>
+        <ZoomFactor>3FF0000000000000</ZoomFactor>
+      </InternalView>
+      <SourceView></SourceView>
+    </CtlInfo>
+    <Mode>0</Mode>
+  </TableViewData>
   <Bookmarks></Bookmarks>
   <SavedByVersion>11.20.12742.0409</SavedByVersion>
   <ForceBackEndMacroExecution>false</ForceBackEndMacroExecution>
   <FieldTags>
     <ScriptBased>
+      <FieldTagData>
+        <Tag>$key</Tag>
+        <FieldNames>
+          <String>$Field</String>
+          <String>$Table</String>
+          <String>Num</String>
+        </FieldNames>
+      </FieldTagData>
       <FieldTagData>
         <Tag>$hidden</Tag>
         <FieldNames>
@@ -34,10 +128,11 @@
         <FieldNames>
           <String>$Field</String>
           <String>$Table</String>
-          <String>$Rows</String>
-          <String>$Fields</String>
-          <String>$FieldNo</String>
           <String>$Info</String>
+          <String>Alpha</String>
+          <String>Dim1</String>
+          <String>Dim2</String>
+          <String>Dim3</String>
         </FieldNames>
       </FieldTagData>
       <FieldTagData>
@@ -45,16 +140,51 @@
         <FieldNames>
           <String>$Field</String>
           <String>$Table</String>
+          <String>$Info</String>
+          <String>Alpha</String>
+          <String>Dim1</String>
+          <String>Dim2</String>
+          <String>Dim3</String>
+        </FieldNames>
+      </FieldTagData>
+      <FieldTagData>
+        <Tag>$numeric</Tag>
+        <FieldNames>
           <String>$Rows</String>
           <String>$Fields</String>
           <String>$FieldNo</String>
-          <String>$Info</String>
+          <String>Num</String>
+          <String>AsciiNum</String>
+          <String>TransLineID</String>
+          <String>TransID</String>
+          <String>Expression1</String>
+          <String>Expression2</String>
+          <String>Expression3</String>
+        </FieldNames>
+      </FieldTagData>
+      <FieldTagData>
+        <Tag>$integer</Tag>
+        <FieldNames>
+          <String>$Rows</String>
+          <String>$Fields</String>
+          <String>$FieldNo</String>
+          <String>Num</String>
+          <String>AsciiNum</String>
+          <String>TransLineID</String>
+          <String>TransID</String>
+          <String>Expression1</String>
+          <String>Expression2</String>
         </FieldNames>
       </FieldTagData>
     </ScriptBased>
     <Interactive></Interactive>
   </FieldTags>
-  <FieldComments></FieldComments>
+  <FieldComments>
+    <Comment>
+      <Name>Dim1</Name>
+      <Comment>This is a field comment</Comment>
+    </Comment>
+  </FieldComments>
   <TableComments></TableComments>
   <CreatePrjFolder>false</CreatePrjFolder>
   <LinkedTables></LinkedTables>
